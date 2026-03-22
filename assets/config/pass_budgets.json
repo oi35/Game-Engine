@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "active_scene": "sample",
+  "active_quality": "balanced",
+  "auto_mode": 0,
+  "visibility_budget_enabled": 1,
+  "hzb_enabled": 1,
+  "compute_dispatch_enabled": 1,
+  "active_tier": "medium",
+  "tier_low_scene": "sample",
+  "tier_low_quality": "quality",
+  "tier_medium_scene": "sample",
+  "tier_medium_quality": "balanced",
+  "tier_high_scene": "stress",
+  "tier_high_quality": "performance",
+  "profiles": [
+    {
+      "scene": "sample",
+      "quality": "performance",
+      "total_ms": 14.00,
+      "shadow_ms": 3.20,
+      "main_ms": 8.40,
+      "debug_ms": 1.40
+    },
+    {
+      "scene": "sample",
+      "quality": "balanced",
+      "total_ms": 16.67,
+      "shadow_ms": 4.00,
+      "main_ms": 10.00,
+      "debug_ms": 2.00
+    },
+    {
+      "scene": "sample",
+      "quality": "quality",
+      "total_ms": 20.00,
+      "shadow_ms": 5.00,
+      "main_ms": 12.50,
+      "debug_ms": 2.50
+    },
+    {
+      "scene": "stress",
+      "quality": "performance",
+      "total_ms": 13.00,
+      "shadow_ms": 2.80,
+      "main_ms": 7.80,
+      "debug_ms": 1.20
+    },
+    {
+      "scene": "stress",
+      "quality": "balanced",
+      "total_ms": 15.50,
+      "shadow_ms": 3.60,
+      "main_ms": 9.20,
+      "debug_ms": 1.80
+    },
+    {
+      "scene": "stress",
+      "quality": "quality",
+      "total_ms": 18.50,
+      "shadow_ms": 4.60,
+      "main_ms": 11.20,
+      "debug_ms": 2.30
+    }
+  ]
+}
